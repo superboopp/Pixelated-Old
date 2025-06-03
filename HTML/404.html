@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>404 | Pixelated Story</title>
+  <style>
+    body {
+      background-color: #2c2c2c;
+      color: #ff4d6d;
+      font-family: 'Courier New', Courier, monospace;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+      text-align: center;
+      margin: 0;
+    }
+
+    h1 {
+      font-size: 6rem;
+      margin-bottom: 0.5rem;
+      color: #ff4d6d;
+      text-shadow: 2px 2px #000;
+    }
+
+    .heart {
+      font-size: 2rem;
+      color: red;
+      animation: pulse 1s infinite;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: #ffe6ea;
+      margin-top: 0;
+    }
+
+    a {
+      color: #ffb3c6;
+      text-decoration: none;
+      border: 2px solid #ff4d6d;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      background-color: #3d3d3d;
+      margin-top: 1.5rem;
+      display: inline-block;
+    }
+
+    a:hover {
+      background-color: #ff4d6d;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <h1>404</h1>
+  <div class="heart">❤❤❤</div>
+  <p>Oops! This chunk of the world doesn't exist.</p>
+  <p>Even Herobrine can't find it.</p>
+  <a href="/">Return to Pixelated Story</a>
+</body>
+</html>
