@@ -5,3 +5,7 @@
     margin-right: auto;
     transition: all .5s;
     max-width: 40rem;
+}
+.main1_logo:hover {
+    transform: scale(1.05)
+}
