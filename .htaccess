@@ -1,5 +1,5 @@
 # Enables the URL Rewrite Module
-RewriteEngine On
+RewriteEngine off
 
 # Redirects traffic from HTTP to HTTPS
 RewriteCond %{HTTPS} off
