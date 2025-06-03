@@ -70,7 +70,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(../Pages/Assets/forms-background.webp);
+    background-image: url(../Components/background.webp);
 }
 
 @media screen and (min-width: 319px) and (max-width: 1000px) {
